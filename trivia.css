@@ -13,6 +13,7 @@ header {
   padding: 9em;
   width:100em;
   height: 18em;
+  z-index: 1;
 }
 
 h1 {
@@ -38,9 +39,8 @@ form {
   position: relative;
   top: 36em;
   margin: 0em 21em 0em 21em;
-  z-index: -1;
-
 }
+
 ul {
   list-style: none;
   list-style-type: none;

@@ -4,7 +4,6 @@ $(document).ready(function(){
   $(".score").text("Total score: " + score + "/10");
 
   $("input").on("click", function(event){
-    console.log("fired!");
     alert($(this).val());
     if ($(this).val() == "correct"){
       score++
