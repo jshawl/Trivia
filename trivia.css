@@ -1,4 +1,4 @@
-<link href='http://fonts.googleapis.com/css?family=Rammetto+One|Inconsolata' rel='stylesheet' type='text/css'>
+@import url(http://fonts.googleapis.com/css?family=Rammetto+One|Podkova);
 html {
   background-color: #FFFF99;
 }
@@ -8,7 +8,7 @@ header {
   font-family: 'Rammetto One', cursive;
 }
 form {
-  font-family: 'Inconsolata';
+  font-family: 'Podkova', serif;
 }
 ul {
   list-style: none;

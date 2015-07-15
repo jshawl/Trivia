@@ -1,8 +1,4 @@
 $(document).ready(function(){
-
-//store answer in a var
-//create array with question and answer
-
 //if user tries to submit an incomplete, alert will notify
 //create var with correct answer
 //compare the user's answer to correct answer
@@ -18,6 +14,8 @@ $(document).ready(function(){
     }
   });
 
+  $(".score").append("Total score: " + score + "/10");
+
   // keeping track of points
   //   if button with value of correct is selected, add 1 pt
 
@@ -28,7 +26,6 @@ $(document).ready(function(){
   });
 
   $("#reset").on("click", function( event ){
-
     var response = confirm("Are you sure you want to start over?");
 
     if (response) {
@@ -39,7 +36,6 @@ $(document).ready(function(){
       console.log("false")
       score = 0
     }
-
   });
 
   $("#hello").on("click", function(){
