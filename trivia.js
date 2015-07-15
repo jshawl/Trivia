@@ -9,7 +9,7 @@ $(document).ready(function(){
       $(".score").text("Total score: " + score + "/10");
     }
   });
-
+//d
   $("#submit").on("click", function(){
     alert("What are you submitting? lol")
   });
