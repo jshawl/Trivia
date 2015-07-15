@@ -6,15 +6,18 @@ $(document).ready(function(){
 //if wrong, no point
 //at the end, give total score
   var score = 0;
+  $(".score").text("Total score: " + score + "/10");
+
   $("input").on("click", function(event){
     // event.preventDefault();
     alert($(this).val());
     if ($(this).val() == "correct"){
       score++
+      $(".score").text("Total score: " + score + "/10");
+
     }
   });
 
-  $(".score").append("Total score: " + score + "/10");
 
   // keeping track of points
   //   if button with value of correct is selected, add 1 pt
