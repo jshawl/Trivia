@@ -56,4 +56,19 @@ button {
   padding: 0.4em 0.8em 0.4em 0.8em;
   border: solid #FFDA47 0em;
   text-decoration: none;
+  position: fixed;
+  z-index: 1;
+  top: 31em;
+}
+
+#reset {
+  right: 4em;
+}
+
+#hello {
+  right: 17em;
+}
+
+#submit {
+  right: 10em;
 }

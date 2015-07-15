@@ -1,5 +1,4 @@
 $(document).ready(function(){
-//what
   var score = 0;
   $(".score").text("Total score: " + score + "/10");
 
