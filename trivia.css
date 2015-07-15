@@ -1,17 +1,59 @@
 @import url(http://fonts.googleapis.com/css?family=Rammetto+One|Podkova);
 html {
-  background-color: #FFFF99;
+  background-color: #E9E9E9
 }
 
 header {
-  color: #808080;
+  color: #FFF;
   font-family: 'Rammetto One', cursive;
+  position:fixed;
+  top: -2em;
+  margin: 2em;
+  background-color: #262626;
+  padding: 9em;
+  width:100em;
+  height: 18em;
 }
+
+h1 {
+  position: fixed;
+  top: 7em;
+}
+
+h2 {
+  top: 14.5em;
+  right: 15em;
+  position: fixed;
+}
+
+.score {
+  position: fixed;
+  top: 25.5em;
+  right: 17em;
+  color: #FFDA47;
+}
+
 form {
   font-family: 'Podkova', serif;
+  position: relative;
+  top: 36em;
+  margin: 0em 21em 0em 21em;
+  z-index: -1;
+
 }
 ul {
   list-style: none;
   list-style-type: none;
+  margin: 1em
+}
 
+button {
+  border-radius: 0.5em;
+  font-family: 'Rammetto One', cursive;
+  color: #c48300;
+  font-size: 1em;
+  background: #FFDA47;
+  padding: 0.4em 0.8em 0.4em 0.8em;
+  border: solid #FFDA47 0em;
+  text-decoration: none;
 }
