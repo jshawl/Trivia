@@ -1,7 +1,17 @@
+<link href='http://fonts.googleapis.com/css?family=Rammetto+One|Inconsolata' rel='stylesheet' type='text/css'>
 html {
-  background-color: #FFFF99
+  background-color: #FFFF99;
+}
+
+header {
+  color: #808080;
+  font-family: 'Rammetto One', cursive;
+}
+form {
+  font-family: 'Inconsolata';
 }
 ul {
   list-style: none;
   list-style-type: none;
+
 }

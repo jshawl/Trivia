@@ -9,21 +9,38 @@ $(document).ready(function(){
 //if correct, give user a point
 //if wrong, no point
 //at the end, give total score
-
-  $("input").on("click", function(){
+  var score = 0;
+  $("input").on("click", function(event){
+    // event.preventDefault();
     alert($(this).val());
+    if ($(this).val() == "correct"){
+      score++
+    }
   });
+
+  // keeping track of points
+  //   if button with value of correct is selected, add 1 pt
+
+
 
   $("#submit").on("click", function(){
     alert("What are you submitting? lol")
   });
 
-  // $("#reset").on("click", function(){
-  //   confirm("Are you sure you want to start over?");
-  //     if ("ok") {
-  //       $("#triviaForm").trigger('reset');
-  //     }
-  // });
+  $("#reset").on("click", function( event ){
+
+    var response = confirm("Are you sure you want to start over?");
+
+    if (response) {
+      $("#triviaForm").trigger('reset');
+    }
+    else {
+      event.preventDefault();
+      console.log("false")
+      score = 0
+    }
+
+  });
 
   $("#hello").on("click", function(){
     alert("Hi!");
